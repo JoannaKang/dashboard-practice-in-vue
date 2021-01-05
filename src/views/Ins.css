@@ -1,0 +1,41 @@
+h1 {
+  color: #520f91;
+  text-align: left;
+  font-family: "Avenir";
+}
+
+h2 {
+  color: #520f91;
+  text-align: left;
+  font-family: "Avenir";
+}
+
+h3 {
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Avenir";
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  padding: 20px;
+}
+
+.container:nth-child(4) {
+  background-color: white;
+}
+
+.lesson-summary {
+  align-items: center;
+  border-top: 1px dotted #c2c2c2;
+  border-bottom: 1px dotted #c2c2c2;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.growth-rate {
+  border-bottom: 1px dotted #c2c2c2;
+}
